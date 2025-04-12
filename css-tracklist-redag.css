@@ -339,15 +339,15 @@ footer, footer .follow-text {
 }
 
 
-    @keyframes secousse {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-10px); }
-    50% { transform: translateX(10px); }
-    75% { transform: translateX(-10px); }
-    100% { transform: translateX(0); }
+@keyframes secousseVerticale {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
 }
 
 .cover_enora {
-    animation: secousse 0.5s ease-out;
+    animation: secousseVerticale 1.5s ease-out;
 }
 
