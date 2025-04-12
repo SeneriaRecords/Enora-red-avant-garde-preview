@@ -328,7 +328,6 @@ footer a {
 }
 
 
-
 /* Appliquer HelveticaWorld-Regular aux titres de la tracklist */
 .tracklist li {
     font-family: 'HelveticaWorld-Regular', sans-serif;
@@ -337,5 +336,18 @@ footer a {
 
 footer, footer .follow-text {
     font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+
+    @keyframes secousse {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.cover_enora {
+    animation: secousse 0.5s ease-out;
 }
 
