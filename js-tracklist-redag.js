@@ -14,7 +14,7 @@ const observer = new IntersectionObserver((entries, observer) => {
 });
 
 // Observer chaque élément de la tracklist
-document.querySelectorAll('.tracklist li').forEach(item => {
+document.querySelectorAll('.tracklist li, .cover_enora').forEach(item => {
     observer.observe(item);
 });
 

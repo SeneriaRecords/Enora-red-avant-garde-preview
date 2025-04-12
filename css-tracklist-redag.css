@@ -31,6 +31,16 @@ h2 {
     text-align: center;
 }
 
+.cover_enora {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
 
 
 /* Définir la police Bebas Neue */
@@ -44,13 +54,13 @@ h2 {
 h1 {
     font-family: 'BebasNeue-Regular', sans-serif;
     font-weight: bold;
-    font-size: 290px;
+    font-size: 8vw;
 }
 
 h2 {
     font-family: 'BebasNeue-Regular', sans-serif;
     font-weight: bold;
-    font-size: 290px;
+    font-size: 8vw;
 }
 
 .tracklist {
@@ -140,8 +150,8 @@ h2 {
 /*OK ECOUTE ET LE TITRE SONT DÉTACHÉ*/
 
 .tracklist li em {
-    font-style: italic;
-    font-family: 'Oswald-Light';
+    font-style: initial;
+    font-family: 'BebasNeue-Regular';
 }
 
 
@@ -172,7 +182,7 @@ footer a {
 /*logo*/
 
 footer a img {
-    width: 60px; /* Ajuste la taille du logo Instagram */
+    width: 50px; /* Ajuste la taille du logo Instagram */
     margin: auto; /* Ajoute un peu d'espace entre le texte et l'image */
     vertical-align: middle;
 
@@ -288,8 +298,8 @@ body {
 .follow-text {
     margin-top: 90px; /* Crée de l'espace entre le texte et l'icône */
     font-size: 16px; /* Taille de la police, ajustable selon ton design */
-    font-weight: bold; /* Optionnel, si tu veux que le texte soit en gras */
-    font-family: 'Oswald-Light';
+    font-weight: initial; /* Optionnel, si tu veux que le texte soit en gras */
+    font-family: 'BebasNeue-Regular';
 
 }
 
