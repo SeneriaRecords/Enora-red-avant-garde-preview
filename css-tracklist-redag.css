@@ -292,15 +292,21 @@ body {
 .insta-logo {
     transition: transform 0.3s ease; /* Transition douce pour l'effet de zoom */
     height: auto; /*Pour conserver les proportions de l'image */
-  .insta-logo {
-    max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur de son parent */
+    width: 10vw; /* Utilise 10% de la largeur de l'écran */
     display: block; /* S'assure que l'image est en mode bloc pour le centrage */
     margin: 0 auto; /* Centrer l'image */
 }
 
-.insta-logo:hover {
-    transform: scale(1.1); /* Augmente la taille du logo de 10% au survol */
-}
+@media (max-width: 768px) {
+    .insta-logo {
+        width: 15vw; /* Agrandir légèrement sur les petits écrans */
+    }
+
+  @media (max-width: 480px) {
+    .insta-logo {
+        width: 20vw; /* Agrandir davantage sur les très petits écrans comme les téléphones */
+    }
+
 
 footer a {
     display: flex;
@@ -309,7 +315,7 @@ footer a {
 }
 
     
-}
+
 
 /* Lors du survol (hover) */
 .insta-logo:hover {
