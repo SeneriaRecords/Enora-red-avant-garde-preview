@@ -302,7 +302,7 @@ body {
     margin-top: 90px; /* Crée de l'espace entre le texte et l'icône */
     font-size: 16px; /* Taille de la police, ajustable selon ton design */
     font-weight: initial; /* Optionnel, si tu veux que le texte soit en gras */
-    font-family: 'HelveticaWorldBold';
+    font-family: 'HelveticaWorld-Regular'; sans-serif;
 
 }
 
