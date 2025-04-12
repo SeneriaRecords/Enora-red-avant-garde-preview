@@ -28,8 +28,9 @@ body {
 h1 {
     margin-top: 40px; /* Espace entre les logos et le titre */
     text-align: center;
-    font-family: 'BebasNeue-Regular', sans-serif;
+    font-family: 'Bebas Neue', Arial, sans-serif;
     font-weight: bold;
+
     font-size: 8vw;
     letter-spacing: -2px;
 
