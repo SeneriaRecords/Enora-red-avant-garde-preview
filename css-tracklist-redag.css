@@ -307,14 +307,6 @@ body {
 }
 
 
-/* Importation de la police HelveticaWorld-Regular */
-@font-face {
-    font-family: 'HelveticaWorld-Regular';
-    src: url('polices/HelveticaWorld/HelveticaWorld-Regular.woff2') format('woff2'),
-         url('pOLICES/HelveticaWorld/HelveticaWorld-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* Appliquer HelveticaWorld-Regular aux titres de la tracklist */
 .tracklist li {
