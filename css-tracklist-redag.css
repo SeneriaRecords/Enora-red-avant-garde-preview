@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px; /* Espace sous les logos */
+    padding-bottom: 10px; /* Espace sous les logos */
 }
 
 .logo {
