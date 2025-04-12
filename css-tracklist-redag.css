@@ -60,6 +60,8 @@ h2 {
 @font-face {
     font-family: 'BebasNeue-Regular';
     src: url('BebasNeue/BebasNeue-Regular.ttf') format('truetype');
+    font-family: 'HelveticaWorld-Regular';
+    src: url('HelveticaWorld/HelveticaWorld-Regular.ttf') format('truetype');
 }
 
 /* Appliquer la police aux titres */
@@ -302,7 +304,7 @@ body {
     margin-top: 90px; /* Crée de l'espace entre le texte et l'icône */
     font-size: 16px; /* Taille de la police, ajustable selon ton design */
     font-weight: initial; /* Optionnel, si tu veux que le texte soit en gras */
-    font-family: 'HelveticaWorld-Regular'; sans-serif;
+    font-family: 'HelveticaWorld-Regular', sans-serif;
 
 }
 
