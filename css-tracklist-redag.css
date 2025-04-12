@@ -316,3 +316,8 @@ body {
     font-weight: normal; /* Si tu souhaites un poids normal pour la police */
 }
 
+footer, footer .follow-text {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+
