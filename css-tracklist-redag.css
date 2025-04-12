@@ -182,7 +182,6 @@ footer a {
     font-weight: bold;
     display: flex;
     align-items: center;
-    margin-top: 15px;
 }
 
 /*logo*/
@@ -192,6 +191,7 @@ footer a img {
     margin: auto; /* Ajoute un peu d'espace entre le texte et l'image */
     vertical-align: middle;
     height: 20px
+    margin-top: 25px;
 
 }
 
