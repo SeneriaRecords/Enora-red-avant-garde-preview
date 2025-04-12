@@ -292,6 +292,10 @@ body {
 /*logo*/
 .insta-logo {
     transition: transform 0.3s ease; /* Transition douce pour l'effet de zoom */
+    width: 90px; /* Taille de l'icône sur ordinateur */
+    height: auto; /* Pour conserver les proportions de l'image */
+    max-width: 100%; /* L'image ne dépassera jamais la largeur de son conteneur */
+    transition: transform 0.3s ease; /* Effet de zoom lors du survol */
 }
 
 /* Lors du survol (hover) */
