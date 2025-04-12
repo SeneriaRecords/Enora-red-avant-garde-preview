@@ -184,12 +184,6 @@ footer a {
     align-items: center;
 }
 
-/*logo*/
-
-footer a img {
-    margin: 20px; /* Ajoute un peu d'espace entre le texte et l'image */
-    vertical-align: middle;
-}
 
 
 
@@ -312,6 +306,8 @@ footer a {
     display: flex;
     justify-content: center; /* Centrer le lien Instagram */
     align-items: center; /* Aligner verticalement */
+    margin: 20px; /* Ajoute un peu d'espace entre le texte et l'image */
+    vertical-align: middle;
 }
 
     
