@@ -292,7 +292,7 @@ body {
 .insta-logo {
     transition: transform 0.3s ease; /* Transition douce pour l'effet de zoom */
     height: auto; /*Pour conserver les proportions de l'image */
-    width: 5vw; /* Utilise 10% de la largeur de l'écran */
+    width: 5%; /* Utilise 10% de la largeur de l'écran */
     display: block; /* S'assure que l'image est en mode bloc pour le centrage */
     margin: 0 auto; /* Centrer l'image */
 }
