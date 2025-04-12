@@ -9,8 +9,7 @@
 
 body {
     padding: 20px 15px 20px 15px; /* haut | droite | bas | gauche */
-    font-family: 'HelveticaNeueRoman', sans-serif;
-}
+    font-family: 'Bebas Neue', Arial, sans-serif;}
 
 .header {
     display: flex;
