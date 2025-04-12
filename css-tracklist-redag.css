@@ -324,9 +324,3 @@ footer, footer .follow-text {
     font-family: 'Bebas Neue', Arial, sans-serif;
 }
 
-@media (max-width: 600px) {
-    .insta-logo {
-        width: 60px; /* Taille réduite sur mobile */
-    }
-
-  
