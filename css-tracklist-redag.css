@@ -291,7 +291,23 @@ body {
 /*logo*/
 .insta-logo {
     transition: transform 0.3s ease; /* Transition douce pour l'effet de zoom */
-    height: auto; /* Pour conserver les proportions de l'image */
+    height: auto; /*Pour conserver les proportions de l'image */
+  .insta-logo {
+    max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur de son parent */
+    display: block; /* S'assure que l'image est en mode bloc pour le centrage */
+    margin: 0 auto; /* Centrer l'image */
+}
+
+.insta-logo:hover {
+    transform: scale(1.1); /* Augmente la taille du logo de 10% au survol */
+}
+
+footer a {
+    display: flex;
+    justify-content: center; /* Centrer le lien Instagram */
+    align-items: center; /* Aligner verticalement */
+}
+
     
 }
 
