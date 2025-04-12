@@ -292,19 +292,19 @@ body {
 .insta-logo {
     transition: transform 0.3s ease; /* Transition douce pour l'effet de zoom */
     height: auto; /*Pour conserver les proportions de l'image */
-    width: 10vw; /* Utilise 10% de la largeur de l'écran */
+    width: 5vw; /* Utilise 10% de la largeur de l'écran */
     display: block; /* S'assure que l'image est en mode bloc pour le centrage */
     margin: 0 auto; /* Centrer l'image */
 }
 
 @media (max-width: 768px) {
     .insta-logo {
-        width: 15vw; /* Agrandir légèrement sur les petits écrans */
+        width: 10vw; /* Agrandir légèrement sur les petits écrans */
     }
 
   @media (max-width: 480px) {
     .insta-logo {
-        width: 20vw; /* Agrandir davantage sur les très petits écrans comme les téléphones */
+        width: 10vw; /* Agrandir davantage sur les très petits écrans comme les téléphones */
     }
 
 
