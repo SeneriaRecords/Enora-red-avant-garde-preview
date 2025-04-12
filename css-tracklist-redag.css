@@ -187,7 +187,7 @@ footer a {
 /*logo*/
 
 footer a img {
-    width: 90px; /* Ajuste la taille du logo Instagram */
+    width: 50px; /* Ajuste la taille du logo Instagram */
     margin: 20px; /* Ajoute un peu d'espace entre le texte et l'image */
     vertical-align: middle;
 }
